@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.giovanna_61806.padaria_mobile">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_icone_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_icone_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Activity_SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity_Login" />
+        <activity android:name=".Activity_Registro" />
+        <activity android:name=".Activity_MenuNavegador" />
+        <activity android:name=".Activity_Registro2" />
+        <activity android:name=".Activity_Logar" />
+        <activity android:name=".Activity_Cardapio" />
+        <activity android:name=".Activity_Cupons" />
+        <activity android:name=".Activity_XBurguer" />
+        <activity android:name=".Activity_Lanches" />
+        <activity android:name=".Activity_XSalada" />
+        <activity android:name=".Activity_XBacon" />
+        <activity android:name=".Activity_Bebidas" />
+        <activity android:name=".Activity_Chapa" />
+        <activity android:name=".Activity_TiposBebidas" />
+        <activity android:name=".Activity_BebidasFrias" />
+        <activity android:name=".Activity_Misto" />
+        <activity android:name=".Activity_Expresso" />
+        <activity android:name=".Activity_Refrigerante" />
+        <activity android:name=".Activity_Smoothie" />
+        <activity android:name=".Activity_Pizza" />
+        <activity android:name=".Activity_PizzaDoce" />
+        <activity android:name=".Activity_TiposPizza" />
+        <activity android:name=".Activity_Paes" />
+        <activity android:name=".Activity_Encomenda" />
+        <activity android:name=".Activity_Doces" />
+        <activity android:name=".Activity_Bolos" />
+        <activity android:name=".Activity_Tortas" />
+        <activity android:name=".Activity_Carolinas" />
+        <activity android:name=".Activity_Bombas" />
+        <activity android:name=".Activity_Sonhos" />
+        <activity android:name=".Activity_FaleConosco" />
+        <activity android:name=".Activity_Cappuccino" />
+        <activity android:name=".Activity_Mocha" />
+        <activity android:name=".Activity_Chocolate" />
+        <activity android:name=".Activity_Frape" />
+        <activity android:name=".Activity_Institucional" />
+        <activity android:name=".Activity_Sucos" />
+        <activity android:name=".Activity_TiposSucos" />
+        <activity android:name=".Activity_TiposAgua" />
+        <activity android:name=".Activity_Agua" />
+        <activity android:name=".Activity_Informacoes" />
+        <activity android:name=".Activity_CupomPrimeira" />
+        <activity android:name=".Activity_CupomAcima"></activity>
+    </application>
+
+</manifest>

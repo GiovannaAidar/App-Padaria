@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context="com.example.giovanna_61806.padaria_mobile.Activity_Institucional">
+
+    <android.support.v7.widget.AppCompatImageButton
+        android:id="@+id/btnVoltarInstitucional"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_voltar"
+        android:layout_margin="18dp"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:srcCompat="@mipmap/ic_icone_foreground" />
+
+
+    <TextView
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/preto"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textAllCaps="false"
+        android:textSize="26dp"
+        android:inputType="textPersonName"
+        android:text="A PADARIA" />
+
+    <TextView
+        android:id="@+id/aste1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/receita"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginBottom="4dp"
+        android:text=" Com 20 anos de história, a Alameda Bakery, acredita na qualidade, bem estar e  profissionais altamente qualificados para fornecer o melhor
+                      para seus clientes."
+        android:textColor="@color/cinza"
+        android:textSize="16dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/aste2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/aste1"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="4dp"
+        android:text="  A padaria conta com um espaço amplo, que
+        busca a comodidade e conforto de seus
+                                  clientes."
+        android:textColor="@color/cinza"
+        android:textSize="16dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/aste3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/aste2"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="4dp"
+        android:text="   Sempre em busca de melhoras e novidades para melhor atende - los, nossa padaria conta
+         com pratos exclusivos e inovadores.
+
+           Fique de olho, para maiores novidades."
+        android:textColor="@color/cinza"
+        android:textSize="16dp"
+        android:textStyle="bold"/>
+
+
+
+</RelativeLayout>

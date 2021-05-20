@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ab2b31</color>
+    <color name="colorPrimaryDark">#911f23</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="gradStart">#a91820</color>
+    <color name="gradStop">#d44950</color>
+
+    <color name="preto">#000000</color>
+
+    <color name="amarelo">#ffcc01</color>
+
+    <color name="cinza">#797574</color>
+
+    <color name="bordo">#7e181b</color>
+
+    <color name="clarinho">#e2e0dc</color>
+
+    <color name="clarinho2">#efece6</color>
+
+    <color name="clarinho3">#f5f3ed</color>
+
+</resources>

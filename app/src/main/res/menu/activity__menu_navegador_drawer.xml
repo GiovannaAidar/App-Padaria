@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_inicio"
+            android:icon="@drawable/ic_home"
+            android:title="Início" />
+
+        <item
+            android:id="@+id/nav_cardapio"
+            android:icon="@drawable/ic_cardapio"
+            android:title="Cardápio" />
+
+        <item
+            android:id="@+id/nav_cupon"
+            android:icon="@drawable/ic_cupon"
+            android:title="Cupons" />
+
+        <item
+            android:id="@+id/nav_fale"
+            android:icon="@drawable/ic_chat"
+            android:title="Fale conosco" />
+
+        <item
+            android:id="@+id/nav_institucional"
+            android:icon="@drawable/ic_institucional"
+            android:title="Institucional" />
+
+        <item
+            android:id="@+id/nav_mais"
+            android:icon="@drawable/ic_mais"
+            android:title="Mais informações" />
+
+
+    </group>
+</menu>

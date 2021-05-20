@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Alameda Bakery</string>
+    <string name="title_activity__menu_navegador">Menu navegador</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_produtos">Produtos</string>/>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="descricao">Descrição</string>
+    <string name="quantidade">Quantidade</string>
+    <string name="valor_unitario">Valor Unitário</string>
+    <string name="status">Situação</string>
+    <string name="ativo">Ativo</string>
+    <string name="codigo">Código</string>
+
+    <string name="account">Account</string>
+    <string name="register">Register</string>
+    <string name="email">E-mail</string>
+    <string name="erro_registro">Error on register</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in_short">Sign in short</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="error_invalid_email">Invalid email</string>
+    <string name="error_invalid_password">Invalid password</string>
+    <string name="error_incorrect_password">Incorrect password</string>
+    <string name="error_field_required">Field required</string>
+    <string name="permission_rationale">Permision</string>
+    <string name="hint_confirm_password">Confirm</string>
+    <string name="do_login">Login</string>
+    <string name="sign_up">Sign up</string>
+    <string name="sign_up_going">Sign up going</string>
+    <string name="invalid_confirmed_password">Confirmes password</string>
+    <string name="invalid_sign_up_email">Sign up email</string>
+    <string name="title_activity_sign_up">Sign up</string>
+    <string name="hint_email_to_login">Email to login</string>
+
+    <string name="sucesso" translatable="false">Sucesso</string>
+    <string name="erro_login">Login or password invalid!</string>
+    <string name="erro_cadastro">Erro ao finalizar o cadastro</string>">
+
+    <string name="enviado">Enviado com sucesso!</string>">
+
+</resources>
